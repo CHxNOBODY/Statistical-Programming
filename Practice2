@@ -1,8 +1,0 @@
-import numpy as np
-import pandas as pd
-
-df = pd.read_csv("https://raw.githubusercontent.com/ThammakornS/ProgStat/main/dataset/titanic.csv")
-df.head()
-
-df['cabin_letter'] = df.Cabin.str.get(0)
-df
